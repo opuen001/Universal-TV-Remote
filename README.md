@@ -3,7 +3,7 @@
 # License
 IR codes provided by irdb:
 
-Contains/accesses irdb by Simon Peter and contributors, used under permission. For licensing details and for information on how to contribute to the database, see  https://github.com/probonopd/irdb <br><br><br>
+Contains/accesses irdb by Simon Peter and contributors, used under permission. For licensing details and for information on how to contribute to the database, see  https://github.com/probonopd/irdb <br><br>
 
 Includes code from EncodeIR.cpp in MakeHex: <br>
 https://github.com/probonopd/MakeHex
