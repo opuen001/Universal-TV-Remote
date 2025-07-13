@@ -643,28 +643,30 @@ struct protdef protdefs[] = {
 	}
 };
 
-int main(int argc, char** argv)
+//convert EncodeIR.cpp's main to a function to be used in a new main
+//int main(int argc, char** argv)
+void EncodeIR(char *prot, int D, int S, int F)
 {
-	if (argc != 5)
+	/*if (argc != 5)
 	{
 usage:
 		printf("Usage: encodeir <protocol> <device> <subdevice> <function>\n");
 		return -1;
-	}
+	}*/
 
 	char irp[1024] = "";
 
-	// Handle D, S, F
-	int D = atoi(argv[2]);
-	int S = atoi(argv[3]);
-	int F = atoi(argv[4]);
+	/* Handle D, S, F NECx1 0 191 1
+	int D = 0;
+	int S = 191;
+	int F = 1;*/
 	if (S >= 0)
 		sprintf(irp, "Device=%d.%d\nFunction=%d\n", D, S, F);
 	else
 		sprintf(irp, "Device=%d\nFunction=%d\n", D, F);
 
 	// Search for protocol
-	char *prot = argv[1];
+	//char *prot = "NECx1";
 	int p = -1;
 	for (int i = 0; i < count(protdefs); i++)
 		if (strcmp(prot, protdefs[i].prot) == 0) {
@@ -695,7 +697,7 @@ usage:
 			}
 		if (p < 0) {
 			printf ("Error: Unknown protocol\n");
-			return -1;
+			return;
 		}
 	}
 	strcat(irp, protdefs[p].def);
@@ -704,7 +706,7 @@ usage:
 	IRP Irp;
 	if (!Irp.readIrpString(irp)) {
 		printf ("Error: Invalid IRP\n");
-		return -1;
+		return;
 	}
 
 	// Encode
@@ -720,6 +722,4 @@ usage:
 	for (int i = 0; i < 2 *(s + r); i++)
 		printf ("%s%g", i?" ":"", seq[i]);
 	printf ("\n");
-	
-	return 0;
-}
+};
