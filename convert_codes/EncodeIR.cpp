@@ -1,12 +1,10 @@
 //#pragma GCC diagnostic ignored "-Wwrite-strings"
 
+#include "EncodeIR.h"
 #include "StdAfx.h"
 #include "IRP.h"
 
-struct protdef {
-	const char *prot;
-	const char *def;
-};
+
 #define count(ARRAY) (sizeof(ARRAY)/sizeof(*ARRAY))
 
 struct protdef protdefs[] = {
@@ -722,4 +720,4 @@ usage:
 	for (int i = 0; i < 2 *(s + r); i++)
 		printf ("%s%g", i?" ":"", seq[i]);
 	printf ("\n");
-};
+}
