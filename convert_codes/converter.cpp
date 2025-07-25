@@ -47,6 +47,6 @@ int main() {
     inputFile.close();
     outputFile.close();
 
-    std::cout << "Done copying CSV.\n";
+    std::cout << "Converted CSV.\n";
     return 0;
 }
