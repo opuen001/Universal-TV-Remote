@@ -40,7 +40,7 @@ int main() {
             std::string timings = EncodeIR(prot_char.data(), d, s, f);
 
             //Output raw timings to new csv
-            outputFile << function << ": " << timings << "\n";
+            outputFile << function << ": " << timings;
         }
     }
 
