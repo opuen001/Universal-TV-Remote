@@ -1,5 +1,8 @@
 #ifndef ENCODE_IR_H
 #define ENCODE_IR_H
+#include <string>
+#include <sstream>
+#include <iostream>
 
 struct protdef {
 	const char *prot;
@@ -8,6 +11,6 @@ struct protdef {
 
 extern struct protdef protdefs[];
 
-void EncodeIR(char* buffer, int a, int b, int c);
+std::string EncodeIR(char* buffer, int D, int S, int F);
 
 #endif

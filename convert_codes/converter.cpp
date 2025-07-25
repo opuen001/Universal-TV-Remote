@@ -7,7 +7,7 @@
 
 int main() {
     std::ifstream inputFile("irdbCodes/vizio.csv");
-    std::ofstream outputFile("irdbCodes/output.csv");
+    std::ofstream outputFile("../rawTimings/vizio.csv");
 
     if (!inputFile.is_open() || !outputFile.is_open()) {
         std::cerr << "Error opening files.\n";
@@ -15,25 +15,34 @@ int main() {
     }
 
     std::string line;
-
-    // Read each line from input.csv
+    // Read each line from input csv
     while (std::getline(inputFile, line)) {
         std::stringstream ss(line);
-        std::string cell;
-        std::vector<std::string> row;
+        std::string function, protocal;
+        int d, s, f;
+        char commas;
+        //std::vector<std::string> row;
 
-        // Split line by commas
-        while (std::getline(ss, cell, ',')) {
-            row.push_back(cell);
-        }
+        // get the function name and information
+        std::getline(ss, function, ',');
+        std::getline(ss, protocal, ',');
+        ss >> d >> commas >> s >> commas >> f;
 
-        // Example: write same row to output.csv
+        //create a char* for EncodeIR
+        std::vector<char> prot_char(protocal.begin(), protocal.end());
+        prot_char.push_back('\0');
+
+        std::string timings = EncodeIR(prot_char.data(), d, s, f);
+
+        //Output raw timings to new csv
+        outputFile << function << ": " << timings << "\n" << "\n";
+
+        /* Example: write same row to output csv
         for (size_t i = 0; i < row.size(); ++i) {
             outputFile << row[i];
             if (i < row.size() - 1)
                 outputFile << ",";
-        }
-        outputFile << "\n";
+        }*/
     }
 
     inputFile.close();
