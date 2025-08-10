@@ -5,7 +5,6 @@ This contains codes for the following TVs, and appears at the following indices 
 <div style="padding-left: 20px;">
         0. Vizio
     </div>
-  
 1. AOC
 # License
 IR codes provided by irdb:
