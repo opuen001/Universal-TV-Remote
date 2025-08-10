@@ -7,7 +7,7 @@ This contains codes for the following TVs, and appears at the following indices 
     </div>
 1. AOC
 
-<br>
+<br> <br>
 # License
 IR codes provided by irdb:
 
