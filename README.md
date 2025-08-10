@@ -2,7 +2,7 @@
 
 # Codes
 This contains codes for the following TVs, and appears at the following indices in the array: <br>
-0. Vizio
+  0. Vizio
 1. AOC
 # License
 IR codes provided by irdb:
