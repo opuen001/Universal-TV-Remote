@@ -7,13 +7,11 @@ void IrSender::getCodes(const std::string& fileName){
 
     //try variations of the file name before giving up
     if(!inputFile.is_open()){
-        //input without the folder
         std::string fileError = "/rawTimings/" + fileName;
         inputFile.close();
         inputFile.open(fileError);
 
         if(!inputFile.is_open()){
-            //only input the name of the file
             fileError = fileError + ".csv";
             inputFile.close();
             inputFile.open(fileError);
