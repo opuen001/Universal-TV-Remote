@@ -6,6 +6,14 @@ This contains codes for the following TVs, and appears at the following indices 
         0. Vizio
     </div>
 1. AOC
+<br> <br>
+
+This can be used with the getCodes function, for example:
+```c++
+example.getCodes(0)
+```
+
+loads codes for a Vizio TV
 
 <br> <br>
 # License
