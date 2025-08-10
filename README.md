@@ -1,5 +1,9 @@
 # universal-TV-Remote
 
+# Codes
+This contains codes for the following TVs, and appears at the following indices in the array:
+0. Vizio
+1. AOC
 # License
 IR codes provided by irdb:
 
