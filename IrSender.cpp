@@ -1,6 +1,15 @@
 #include "IrSender.h"
 #include <string>
 
+void IrSender::modulation(unsigned int timeMicros) {
+  unsigned long start = micros();
+  while (micros() - start < timeMicros) {
+    digitalWrite(LED_PIN, HIGH);
+    delayMicroseconds(13);   // ~26µs total ON+OFF gives ~38kHz
+    digitalWrite(LED_PIN, LOW);
+    delayMicroseconds(13);
+  }
+}
 
 void IrSender::getCodes(const std::string& fileName){
     std::ifstream inputFile(fileName);
@@ -18,7 +27,7 @@ void IrSender::getCodes(const std::string& fileName){
 
             if(!inputFile.is_open()){
                 //giving up
-                std::cerr << "Error opening " << fileName << std::endl;
+                std::cerr << "Error opening " << fileName << std::endl; //FIX: cerr not compatable for arduino.
                 return;
             }
         }
@@ -63,7 +72,38 @@ void IrSender::clearCodes(){
 }
 
 void IrSender::sendIrCode(int index){
-    for(unsigned i = 0; i < codes.at(i).size(); i++){
-        //arduino stuff
+    for(unsigned i = 0; i < codes.at(index).size(); i+= 2){
+        modulation(codes.at(index).at(i)); //on with modulation
+
+        // OFF
+        digitalWrite(LED_PIN, LOW);
+        if (i + 1 < codes.at(index).size()){
+            delayMicroseconds(codes.at(index).at(i + 1));
+        } else{
+            std::cerr << "Odd number of timings" << std::endl; //FIX: cerr not compatable for arduino.
+        }
     }
 }
+
+/*
+void sendIRSignal() {
+  for (int i = 0; i < 68; i += 2) {
+    // ON with 38kHz modulation
+    enableIROut(timing[i]);
+
+    // OFF
+    digitalWrite(LED_PIN, LOW);
+    delayMicroseconds(timing[i + 1]);
+  }
+}
+
+void enableIROut(unsigned int timeMicros) {
+  unsigned long start = micros();
+  while (micros() - start < timeMicros) {
+    digitalWrite(LED_PIN, HIGH);
+    delayMicroseconds(13);   // ~26µs total ON+OFF gives ~38kHz
+    digitalWrite(LED_PIN, LOW);
+    delayMicroseconds(13);
+  }
+}
+  */

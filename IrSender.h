@@ -8,9 +8,11 @@
 
 class IrSender{
     private:
+    int LED_PIN;
     std::vector<std::vector<int>> codes;
     std::vector<std::string> functionOrder;
-    const std::string files[1] = {"rawTimings/vizioTimings.csv"};
+    const std::string files[3] = {"rawTimings/vizioTimings.csv", "aoc/vizioTimings.csv", "rawTimings/aristonaTimings.csv"};
+    void modulation(unsigned int timeMicros); //modulates the signal at 38kHz
 
     public:
     void getCodes(const std::string& fileName); //Loads in the IR codes from the provided rawTimings file
