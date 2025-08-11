@@ -1,4 +1,5 @@
 functionname,protocol,device,subdevice,function
+KEY_POWER,RC5,0,-1,12
 KEY_0,RC5,0,-1,0
 KEY_1,RC5,0,-1,1
 KEY_2,RC5,0,-1,2
@@ -11,7 +12,6 @@ KEY_8,RC5,0,-1,8
 KEY_9,RC5,0,-1,9
 TEXT_FWD,RC5,0,-1,10
 TEXT_BACK,RC5,0,-1,11
-KEY_POWER,RC5,0,-1,12
 KEY_MUTE,RC5,0,-1,13
 PP,RC5,0,-1,14
 KEY_VOLUMEUP,RC5,0,-1,16
