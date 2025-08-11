@@ -215,6 +215,17 @@ struct protdef protdefs[] = {
 		"Suffix=1,-45\n"
 		"Form=;*,D:8,1,-8,F:8,_\n"
 	},
+	{ "RC5",
+		"Protocol=RC5\n"
+		"Frequency=36000\n"
+		"Time Base=889\n"
+		"Message Time=128\n"
+		"Zero=1,-1\n"
+		"One=-1,1\n"
+		"Prefix=1\n"
+		"First Bit=MSB\n"
+		"Form=;*,~F:1:6,T:1,D:5,F:6\n"
+	},
 	{ "Samsung20",
 		"Protocol=Samsung20\n"
 		"Frequency=38400\n"
