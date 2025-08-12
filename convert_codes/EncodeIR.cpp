@@ -8,6 +8,16 @@
 #define count(ARRAY) (sizeof(ARRAY)/sizeof(*ARRAY))
 
 struct protdef protdefs[] = {
+	{"Blaupunkt",
+		"Protocol=Blaupunkt\n"
+		"Frequency=30500\n"
+		"Time Base=500\n"
+		"Zero=-1,1\n"
+		"One=1,-1\n"
+		"Prefix=1,-5\n"
+		"Suffix=-27\n"
+		"Form=*,1023:10,_;*,1:1,F:7,D:2,_\n"
+	},
 	{ "DAC4",
 		"Frequency=38000\n"
 		"Zero=500,-1000\n"
