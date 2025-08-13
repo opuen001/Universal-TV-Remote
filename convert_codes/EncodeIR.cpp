@@ -132,6 +132,15 @@ struct protdef protdefs[] = {
 		"Suffix=44,-22500\n"
 		"Form=;F:5,_\n"
 	},
+	{ "JVC",
+		"Protocol=JVC\n"
+		"Frequency=37900\n"
+		"Time Base=527\n"
+		"Zero=1,-1\n"
+		"One=1,-3\n"
+		"Prefix=16,-8\n"
+		"Form=*;D:8,F:8,1,^88\n"
+	},
 	{ "Kaseikyo",
 		"define N=90\n"
 		"define E=1\n"
