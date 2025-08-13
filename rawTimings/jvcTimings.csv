@@ -1,0 +1,116 @@
+MAIN/SAP: Error: Unknown protocol
+SLEEP TIMER: Error: Unknown protocol
+DISPLAY: Error: Unknown protocol
+RETURN: Error: Unknown protocol
+RETURN+: Error: Unknown protocol
+OK: Error: Unknown protocol
+ENTER/OK: Error: Unknown protocol
+OK/SELECT: Error: Unknown protocol
+ANT/CABLE: Error: Unknown protocol
+A/V RESET: Error: Unknown protocol
+AV STATUS/RESET: Error: Unknown protocol
+VIDEO STATUS: Error: Unknown protocol
+CLOSED CAPTION: Error: Unknown protocol
+CLOSE CAPTION: Error: Unknown protocol
+TUNER: Error: Unknown protocol
+ANT: Error: Unknown protocol
+INPUT 1: Error: Unknown protocol
+VIDEO 1: Error: Unknown protocol
+VIDEO1: Error: Unknown protocol
+INPUT 2: Error: Unknown protocol
+VIDEO 2: Error: Unknown protocol
+VIDEO2: Error: Unknown protocol
+TV/VIDEO: Error: Unknown protocol
+INPUT SOURCE: Error: Unknown protocol
+TV TV/VIDEO: Error: Unknown protocol
+INPUT 3: Error: Unknown protocol
+INPUT3: Error: Unknown protocol
+VIDEO 3: Error: Unknown protocol
+VIDEO3: Error: Unknown protocol
+DIGITAL IN: Error: Unknown protocol
+DIGITAL 1: Error: Unknown protocol
+POWER: Error: Unknown protocol
+POWER (TOGGLE): Error: Unknown protocol
+TV POWER: Error: Unknown protocol
+DOWN: Error: Unknown protocol
+CHANNEL -: Error: Unknown protocol
+CHAN DOWN: Error: Unknown protocol
+ARROW DOWN: Error: Unknown protocol
+TV CH V: Error: Unknown protocol
+UP: Error: Unknown protocol
+CHANNEL +: Error: Unknown protocol
+CHAN UP: Error: Unknown protocol
+ARROW UP: Error: Unknown protocol
+TV CH ^: Error: Unknown protocol
+POWER OFF: Error: Unknown protocol
+POWER OFF (ALT.): Error: Unknown protocol
+POWER OFF (2): Error: Unknown protocol
+INPUT 4: Error: Unknown protocol
+INPUT4: Error: Unknown protocol
+VIDEO4: Error: Unknown protocol
+MUTE: Error: Unknown protocol
+POWER ON: Error: Unknown protocol
+RIGHT: Error: Unknown protocol
+VOL UP: Error: Unknown protocol
+VOLUME +: Error: Unknown protocol
+ARROW RIGHT: Error: Unknown protocol
+TV VOL +: Error: Unknown protocol
+LEFT: Error: Unknown protocol
+VOL DN: Error: Unknown protocol
+VOLUME -: Error: Unknown protocol
+VOL DOWN: Error: Unknown protocol
+ARROW LEFT: Error: Unknown protocol
+TV VOL -: Error: Unknown protocol
+0: Error: Unknown protocol
+TV 0 (AUX): Error: Unknown protocol
+1: Error: Unknown protocol
+TV 1: Error: Unknown protocol
+2: Error: Unknown protocol
+TV 2: Error: Unknown protocol
+3: Error: Unknown protocol
+TV 3: Error: Unknown protocol
+4: Error: Unknown protocol
+TV 4: Error: Unknown protocol
+5: Error: Unknown protocol
+TV 5: Error: Unknown protocol
+6: Error: Unknown protocol
+TV 6: Error: Unknown protocol
+7: Error: Unknown protocol
+7: Error: Unknown protocol
+TV 7: Error: Unknown protocol
+8: Error: Unknown protocol
+TV 8 (DAILY M-F): Error: Unknown protocol
+9: Error: Unknown protocol
+TV 9 (WEEKLY): Error: Unknown protocol
+RECALL CHOICE: Error: Unknown protocol
+BIPHONIC: Error: Unknown protocol
+HYPER SURROUND: Error: Unknown protocol
+SOUND: Error: Unknown protocol
+VNR: Error: Unknown protocol
+CURSER RIGHT: Error: Unknown protocol
++: Error: Unknown protocol
+MENU RIGHT: Error: Unknown protocol
+FORWARD: Error: Unknown protocol
+CURSER LEFT: Error: Unknown protocol
+-: Error: Unknown protocol
+MENU LEFT: Error: Unknown protocol
+BACK: Error: Unknown protocol
+NOTCH: Error: Unknown protocol
+100+: Error: Unknown protocol
+MENU: Error: Unknown protocol
+CURSER DOWN: Error: Unknown protocol
+FORWARD/DOWN: Error: Unknown protocol
+MENU DOWN: Error: Unknown protocol
+CURSER UP: Error: Unknown protocol
+BACK/UP: Error: Unknown protocol
+MENU UP: Error: Unknown protocol
+MULTISCREEN FREEZE: Error: Unknown protocol
+FREEZE: Error: Unknown protocol
+MULTISCREEN INDEX: Error: Unknown protocol
+MULTISCREEN SWAP: Error: Unknown protocol
+MULTILSCREEN TWIN: Error: Unknown protocol
+ASPECT: Error: Unknown protocol
+ASPECT RATIO: Error: Unknown protocol
+THEATRE PRO: Error: Unknown protocol
+EXIT: Error: Unknown protocol
+BACK: Error: Unknown protocol
