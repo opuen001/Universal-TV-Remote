@@ -182,6 +182,19 @@ struct protdef protdefs[] = {
 		"Suffix=1,-80\n"
 		"Form=;D:8,F:8,_\n"
 	},
+	{ "NEC1",
+		"Protocol=NEC\n"
+		"Frequency=38000\n"
+		"Time Base=564\n"
+		"One=1,-3\n"
+		"Zero=1,-1\n"
+		"Prefix=16,-8\n"
+		"Suffix=1,-78\n"
+		"R-Prefix=16,-4\n"
+		"R-Suffix=1,-174\n"
+		"Default S=~D\n"
+		"Form=*,D:8,S:8,F:8,~F:8,_;*,_\n"
+	},
 	{ "NECx1",
 		"Protocol=NECx1\n"
 		"Frequency=38000\n"
