@@ -286,6 +286,15 @@ struct protdef protdefs[] = {
 		"Zero=498,-498\n"
 		"Form=;4488,-4492,d:8,s:8,498,-4498,e:4,f:8,-68,~f:8,498,-59154\n"
 	},
+	{ "Sharp",
+		"Protocol=SHARP\n"
+		"Frequency=37917\n"
+		"Time Base=264\n"
+		"Zero=1,-3\n"
+		"One=1,-7\n"
+		"Suffix=1,-165\n"
+		"Form=;D:5,F:8,1:2,_,D:5,~F:8,2:2,_\n"
+	},
 	{ "TViX",
 		"Protocol=NEC\n"
 		"Frequency=38000\n"
