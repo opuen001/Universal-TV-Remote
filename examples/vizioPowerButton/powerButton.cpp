@@ -21,8 +21,6 @@ void sendIRSignal() {
   for (int i = 0; i < 68; i += 2) {
     // ON with 38kHz modulation
     enableIROut(timing[i]);
-    //digitalWrite(LED_PIN, HIGH);
-    //delayMicroseconds(timing[i]);
 
     // OFF
     digitalWrite(LED_PIN, LOW);
