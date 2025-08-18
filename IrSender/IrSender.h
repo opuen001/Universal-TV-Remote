@@ -11,10 +11,10 @@ class IrSender{
     int LED_PIN;
     std::vector<std::vector<int>> codes;
     std::vector<std::string> functionOrder;
-    const std::string files[12] = {"../rawTimings/vizioTimings.csv", "../rawTimings/aocTimings.csv", "../rawTimings/aristonaTimings.csv", 
+    const std::string files[13] = {"../rawTimings/vizioTimings.csv", "../rawTimings/aocTimings.csv", "../rawTimings/aristonaTimings.csv", 
         "../rawTimings/bekoTimings.csv", "../rawTimings/bushTimings.csv", "../rawTimings/grundigTimings.csv", "../rawTimings/hitachiTimings.csv",
         "../rawTimings/hyundaiTimings.csv", "../rawTimings/jvcTimings.csv", "../rawTimings/LGTimings.csv", "../rawTimings/loeweTimings.csv",
-        "../rawTimings/magnavoxTimings.csv"};
+        "../rawTimings/magnavoxTimings.csv", "../rawTimings/mitsubishiTimings.csv"};
     void modulation(unsigned int timeMicros); //modulates the signal at 38kHz
 
     public:
