@@ -240,6 +240,18 @@ struct protdef protdefs[] = {
 		"THREE=164,-783\n"
 		"Form=412,-276,D:8,S:8,X:8,F:8,164,^100m,412,-276,D:8,S:8,(X+128):8,F:8,164,-10m\n"
 	},
+	{ "Panasonic",
+		"Protocol= Panasonic\n"
+		"Frequency=37000\n"
+		"Time Base=432\n"
+		"Zero=1,-1\n"
+		"One=1,-3\n"
+		"Prefix=8,-4\n"
+		"Default S=0\n"
+		"Define C=D^S^F\n"
+		"Suffix=1,-173\n"
+		"Form=;*,2:8,32:8,D:8,S:8,F:8,C:8,_\n"
+	},
 	{ "Polycom",
 		"Protocol=Polycom\n"
 		"Frequency=38740\n"
