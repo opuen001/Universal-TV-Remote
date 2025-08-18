@@ -8,6 +8,28 @@
 #define count(ARRAY) (sizeof(ARRAY)/sizeof(*ARRAY))
 
 struct protdef protdefs[] = {
+	{ "Aiwa",
+		"Protocol=Aiwa\n"
+		"Frequency=38000\n"
+		"Time Base=550\n"
+		"One=1,-3\n"
+		"Zero=1,-1\n"
+		"Prefix=16,-8\n"
+		"Suffix=1,-42\n"
+		"R-Prefix=16,-8\n"
+		"R-Suffix=1,-165\n"
+		"Form=*,D:8,S:5,~D:8,~S:5,F:8,~F:8,_;*,_\n"
+	},
+	{"Blaupunkt",
+		"Protocol=Blaupunkt\n"
+		"Frequency=30500\n"
+		"Time Base=500\n"
+		"Zero=-1,1\n"
+		"One=1,-1\n"
+		"Prefix=1,-5\n"
+		"Suffix=-27\n"
+		"Form=*,1023:10,_;*,1:1,F:7,D:2,_\n"
+	},
 	{ "DAC4",
 		"Frequency=38000\n"
 		"Zero=500,-1000\n"
@@ -122,6 +144,15 @@ struct protdef protdefs[] = {
 		"Suffix=44,-22500\n"
 		"Form=;F:5,_\n"
 	},
+	{ "JVC",
+		"Protocol=JVC\n"
+		"Frequency=37900\n"
+		"Time Base=527\n"
+		"Zero=1,-1\n"
+		"One=1,-3\n"
+		"Prefix=16,-8\n"
+		"Form=*;D:8,F:8,1,^88\n"
+	},
 	{ "Kaseikyo",
 		"define N=90\n"
 		"define E=1\n"
@@ -150,6 +181,19 @@ struct protdef protdefs[] = {
 		"One=1,-7\n"
 		"Suffix=1,-80\n"
 		"Form=;D:8,F:8,_\n"
+	},
+	{ "NEC1",
+		"Protocol=NEC\n"
+		"Frequency=38000\n"
+		"Time Base=564\n"
+		"One=1,-3\n"
+		"Zero=1,-1\n"
+		"Prefix=16,-8\n"
+		"Suffix=1,-78\n"
+		"R-Prefix=16,-4\n"
+		"R-Suffix=1,-174\n"
+		"Default S=~D\n"
+		"Form=*,D:8,S:8,F:8,~F:8,_;*,_\n"
 	},
 	{ "NECx1",
 		"Protocol=NECx1\n"
@@ -196,6 +240,18 @@ struct protdef protdefs[] = {
 		"THREE=164,-783\n"
 		"Form=412,-276,D:8,S:8,X:8,F:8,164,^100m,412,-276,D:8,S:8,(X+128):8,F:8,164,-10m\n"
 	},
+	{ "Panasonic",
+		"Protocol= Panasonic\n"
+		"Frequency=37000\n"
+		"Time Base=432\n"
+		"Zero=1,-1\n"
+		"One=1,-3\n"
+		"Prefix=8,-4\n"
+		"Default S=0\n"
+		"Define C=D^S^F\n"
+		"Suffix=1,-173\n"
+		"Form=;*,2:8,32:8,D:8,S:8,F:8,C:8,_\n"
+	},
 	{ "Polycom",
 		"Protocol=Polycom\n"
 		"Frequency=38740\n"
@@ -241,6 +297,15 @@ struct protdef protdefs[] = {
 		"One=498,-1498\n"
 		"Zero=498,-498\n"
 		"Form=;4488,-4492,d:8,s:8,498,-4498,e:4,f:8,-68,~f:8,498,-59154\n"
+	},
+	{ "Sharp",
+		"Protocol=SHARP\n"
+		"Frequency=37917\n"
+		"Time Base=264\n"
+		"Zero=1,-3\n"
+		"One=1,-7\n"
+		"Suffix=1,-165\n"
+		"Form=;D:5,F:8,1:2,_,D:5,~F:8,2:2,_\n"
 	},
 	{ "TViX",
 		"Protocol=NEC\n"
