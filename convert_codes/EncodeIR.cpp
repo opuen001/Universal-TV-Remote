@@ -252,6 +252,17 @@ struct protdef protdefs[] = {
 		"Suffix=1,-173\n"
 		"Form=;*,2:8,32:8,D:8,S:8,F:8,C:8,_\n"
 	},
+	{ "Pioneer",
+		"Protocol=Pioneer\n"
+		"Frequency=40000\n"
+		"Time Base=564\n"
+		"One=1,-3\n"
+		"Zero=1,-1\n"
+		"Prefix=16,-8\n"
+		"Suffix=1,-78\n"
+		"Default S=~D\n"
+		"Form=;*,D:8,S:8,F:8,~F:8,_\n"
+	},
 	{ "Polycom",
 		"Protocol=Polycom\n"
 		"Frequency=38740\n"
