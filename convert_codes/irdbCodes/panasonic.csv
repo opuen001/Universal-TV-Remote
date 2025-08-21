@@ -1,4 +1,5 @@
 functionname,protocol,device,subdevice,function
+POWER TOGGLE,Panasonic,128,0,61
 INPUT TUNER,Panasonic,128,0,0
 INPUT VIDEO 1,Panasonic,128,0,1
 INPUT VIDEO 2,Panasonic,128,0,2
@@ -35,7 +36,6 @@ CHANNEL DOWN,Panasonic,128,0,53
 CHANNEL PREVIOUS,Panasonic,128,0,55
 SEARCH,Panasonic,128,0,56
 INFO / RECALL,Panasonic,128,0,57
-POWER TOGGLE,Panasonic,128,0,61
 POWER ON,Panasonic,128,0,62
 POWER OFF,Panasonic,128,0,63
 CONTRAST UP,Panasonic,128,0,66
