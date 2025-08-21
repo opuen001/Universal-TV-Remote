@@ -5,25 +5,25 @@ This contains codes for the following TVs, and appears at the following indices 
 <div style="padding-left: 20px;">
         0. Vizio
     </div>
-1. AOC
-2. Aristona
-3. Beko
-4. Bush
-5. Grundig
-6. Hitachi
-7. Hyundai
-8. JVC
-9. Konka
-10. LG
-11. Loewe
-12. Magnavox
-13. Mitsubishi
-14. Panasonic
-15. Philips
-16. Pioneer
-17. Proton
-18. RCA
-19. Samsung
+1. AOC <br>
+2. Aristona <br>
+3. Beko <br>
+4. Bush <br>
+5. Grundig <br>
+6. Hitachi <br>
+7. Hyundai <br>
+8. JVC <br>
+9. Konka <br>
+10. LG <br>
+11. Loewe <br>
+12. Magnavox <br>
+13. Mitsubishi <br>
+14. Panasonic <br>
+15. Philips <br>
+16. Pioneer <br>
+17. Proton <br>
+18. RCA <br>
+19. Samsung <br>
 
 <br> <br>
 # License
