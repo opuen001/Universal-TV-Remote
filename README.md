@@ -6,14 +6,24 @@ This contains codes for the following TVs, and appears at the following indices 
         0. Vizio
     </div>
 1. AOC
-<br> <br>
-
-This can be used with the getCodes function, for example:
-```c++
-example.getCodes(0)
-```
-
-loads codes for a Vizio TV
+2. Aristona
+3. Beko
+4. Bush
+5. Grundig
+6. Hitachi
+7. Hyundai
+8. JVC
+9. Konka
+10. LG
+11. Loewe
+12. Magnavox
+13. Mitsubishi
+14. Panasonic
+15. Philips
+16. Pioneer
+17. Proton
+18. RCA
+19. Samsung
 
 <br> <br>
 # License
