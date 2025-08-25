@@ -385,7 +385,6 @@ struct protdef protdefs[] = {
 		"Prefix=4,-1\n"
 		"Form=;*,F:7,D:5,_\n"
 	},
-
 	{ "Sony15",
 		"Protocol=Sony15\n"
 		"Frequency=40000\n"
@@ -395,7 +394,6 @@ struct protdef protdefs[] = {
 		"Prefix=4,-1\n"
 		"Form=;*,F:7,D:8,_\n"
 	},
-
 	{ "Sony20",
 		"Protocol=Sony20\n"
 		"Frequency=40000\n"
@@ -765,7 +763,6 @@ struct protdef protdefs[] = {
 		"Prefix=4,-1\n"
 		"Form=;*,F:7,D:5,_\n"
 	},
-
 	{ "sony15",
 		"Protocol=Sony15\n"
 		"Frequency=40000\n"
@@ -775,7 +772,6 @@ struct protdef protdefs[] = {
 		"Prefix=4,-1\n"
 		"Form=;*,F:7,D:8,_\n"
 	},
-
 	{ "sony20",
 		"Protocol=Sony20\n"
 		"Frequency=40000\n"
