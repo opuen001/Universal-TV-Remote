@@ -383,6 +383,8 @@ struct protdef protdefs[] = {
 		"One=1,-1\n"
 		"Zero=1,-2\n"
 		"Prefix=4,-1\n"
+		"Suffix=\n"
+		"Default S=0\n"
 		"Form=;*,F:7,D:5,_\n"
 	},
 	{ "Sony15",
@@ -392,6 +394,8 @@ struct protdef protdefs[] = {
 		"One=1,-1\n"
 		"Zero=1,-2\n"
 		"Prefix=4,-1\n"
+		"Suffix=\n"
+		"Default S=0\n"
 		"Form=;*,F:7,D:8,_\n"
 	},
 	{ "Sony20",
@@ -401,6 +405,8 @@ struct protdef protdefs[] = {
 		"One=1,-1\n"
 		"Zero=1,-2\n"
 		"Prefix=4,-1\n"
+		"Suffix=\n"
+		"Default S=0\n"
 		"Form=;*,F:7,D:5,S:8,_\n"
 	},
 	{ "XMP",
@@ -761,6 +767,8 @@ struct protdef protdefs[] = {
 		"One=1,-1\n"
 		"Zero=1,-2\n"
 		"Prefix=4,-1\n"
+		"Suffix=\n"
+		"Default S=0\n"
 		"Form=;*,F:7,D:5,_\n"
 	},
 	{ "sony15",
@@ -770,6 +778,8 @@ struct protdef protdefs[] = {
 		"One=1,-1\n"
 		"Zero=1,-2\n"
 		"Prefix=4,-1\n"
+		"Suffix=\n"
+		"Default S=0\n"
 		"Form=;*,F:7,D:8,_\n"
 	},
 	{ "sony20",
@@ -779,6 +789,8 @@ struct protdef protdefs[] = {
 		"One=1,-1\n"
 		"Zero=1,-2\n"
 		"Prefix=4,-1\n"
+		"Suffix=\n"
+		"Default S=0\n"
 		"Form=;*,F:7,D:5,S:8,_\n"
 	},
 	{ "x10ir",
