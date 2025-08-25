@@ -376,6 +376,35 @@ struct protdef protdefs[] = {
 		"Default S=~D\n"
 		"Form=*,D:8,S:8,F:8,U:4,~F:4:4,_;*,_\n"
 	},
+	{ "Sony12",
+		"Protocol=Sony12\n"
+		"Frequency=40000\n"
+		"Time Base=600\n"
+		"One=1,-1\n"
+		"Zero=1,-2\n"
+		"Prefix=4,-1\n"
+		"Form=;*,F:7,D:5,_\n"
+	},
+
+	{ "Sony15",
+		"Protocol=Sony15\n"
+		"Frequency=40000\n"
+		"Time Base=600\n"
+		"One=1,-1\n"
+		"Zero=1,-2\n"
+		"Prefix=4,-1\n"
+		"Form=;*,F:7,D:8,_\n"
+	},
+
+	{ "Sony20",
+		"Protocol=Sony20\n"
+		"Frequency=40000\n"
+		"Time Base=600\n"
+		"One=1,-1\n"
+		"Zero=1,-2\n"
+		"Prefix=4,-1\n"
+		"Form=;*,F:7,D:5,S:8,_\n"
+	},
 	{ "XMP",
 		"Define A=S:4:4\n"
 		"Define B=3908\n"
@@ -726,6 +755,35 @@ struct protdef protdefs[] = {
 		"Message Time=114\n"
 		"First Bit=MSB\n"
 		"Form=;1:1,~F:1:6,T:1,D:6,F:6\n"
+	},
+	{ "sony12",
+		"Protocol=Sony12\n"
+		"Frequency=40000\n"
+		"Time Base=600\n"
+		"One=1,-1\n"
+		"Zero=1,-2\n"
+		"Prefix=4,-1\n"
+		"Form=;*,F:7,D:5,_\n"
+	},
+
+	{ "sony15",
+		"Protocol=Sony15\n"
+		"Frequency=40000\n"
+		"Time Base=600\n"
+		"One=1,-1\n"
+		"Zero=1,-2\n"
+		"Prefix=4,-1\n"
+		"Form=;*,F:7,D:8,_\n"
+	},
+
+	{ "sony20",
+		"Protocol=Sony20\n"
+		"Frequency=40000\n"
+		"Time Base=600\n"
+		"One=1,-1\n"
+		"Zero=1,-2\n"
+		"Prefix=4,-1\n"
+		"Form=;*,F:7,D:5,S:8,_\n"
 	},
 	{ "x10ir",
 		"Protocol=X10IR\n"
