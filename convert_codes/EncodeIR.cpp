@@ -304,6 +304,17 @@ struct protdef protdefs[] = {
 		"First Bit=MSB\n"
 		"Form=;*,D:4,F:8,~D:4,~F:8,_\n"
 	},
+	{ "RCA-38",
+		"Protocol=RCA-38\n"
+		"Frequency=38000\n"
+		"Time Base=460\n"
+		"Zero=1,-2\n"
+		"One=1,-4\n"
+		"Prefix=8,-8\n"
+		"Suffix=1,-15\n"
+		"First Bit=MSB\n"
+		"Form=;*,D:4,F:8,~D:4,~F:8,_\n"
+	},
 	{ "Samsung20",
 		"Protocol=Samsung20\n"
 		"Frequency=38400\n"
@@ -699,6 +710,17 @@ struct protdef protdefs[] = {
 	{ "rca",
 		"Protocol=RCA\n"
 		"Frequency=58000\n"
+		"Time Base=460\n"
+		"Zero=1,-2\n"
+		"One=1,-4\n"
+		"Prefix=8,-8\n"
+		"Suffix=1,-15\n"
+		"First Bit=MSB\n"
+		"Form=;*,D:4,F:8,~D:4,~F:8,_\n"
+	},
+	{ "rca-38",
+		"Protocol=RCA-38\n"
+		"Frequency=38000\n"
 		"Time Base=460\n"
 		"Zero=1,-2\n"
 		"One=1,-4\n"
