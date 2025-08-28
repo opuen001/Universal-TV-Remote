@@ -304,6 +304,17 @@ struct protdef protdefs[] = {
 		"First Bit=MSB\n"
 		"Form=;*,D:4,F:8,~D:4,~F:8,_\n"
 	},
+	{ "RCA-38",
+		"Protocol=RCA-38\n"
+		"Frequency=38000\n"
+		"Time Base=460\n"
+		"Zero=1,-2\n"
+		"One=1,-4\n"
+		"Prefix=8,-8\n"
+		"Suffix=1,-15\n"
+		"First Bit=MSB\n"
+		"Form=;*,D:4,F:8,~D:4,~F:8,_\n"
+	},
 	{ "Samsung20",
 		"Protocol=Samsung20\n"
 		"Frequency=38400\n"
@@ -375,6 +386,39 @@ struct protdef protdefs[] = {
 		"R-Suffix=1,-174\n"
 		"Default S=~D\n"
 		"Form=*,D:8,S:8,F:8,U:4,~F:4:4,_;*,_\n"
+	},
+	{ "Sony12",
+		"Protocol=Sony12\n"
+		"Frequency=40000\n"
+		"Time Base=600\n"
+		"One=1,-1\n"
+		"Zero=1,-2\n"
+		"Prefix=4,-1\n"
+		"Suffix=\n"
+		"Default S=0\n"
+		"Form=;*,F:7,D:5,_\n"
+	},
+	{ "Sony15",
+		"Protocol=Sony15\n"
+		"Frequency=40000\n"
+		"Time Base=600\n"
+		"One=1,-1\n"
+		"Zero=1,-2\n"
+		"Prefix=4,-1\n"
+		"Suffix=\n"
+		"Default S=0\n"
+		"Form=;*,F:7,D:8,_\n"
+	},
+	{ "Sony20",
+		"Protocol=Sony20\n"
+		"Frequency=40000\n"
+		"Time Base=600\n"
+		"One=1,-1\n"
+		"Zero=1,-2\n"
+		"Prefix=4,-1\n"
+		"Suffix=\n"
+		"Default S=0\n"
+		"Form=;*,F:7,D:5,S:8,_\n"
 	},
 	{ "XMP",
 		"Define A=S:4:4\n"
@@ -674,6 +718,17 @@ struct protdef protdefs[] = {
 		"First Bit=MSB\n"
 		"Form=;*,D:4,F:8,~D:4,~F:8,_\n"
 	},
+	{ "rca-38",
+		"Protocol=RCA-38\n"
+		"Frequency=38000\n"
+		"Time Base=460\n"
+		"Zero=1,-2\n"
+		"One=1,-4\n"
+		"Prefix=8,-8\n"
+		"Suffix=1,-15\n"
+		"First Bit=MSB\n"
+		"Form=;*,D:4,F:8,~D:4,~F:8,_\n"
+	},
 	{ "recs80_45",
 		"Frequency=38000\n"
 		"Zero=170,-4900\n"
@@ -726,6 +781,39 @@ struct protdef protdefs[] = {
 		"Message Time=114\n"
 		"First Bit=MSB\n"
 		"Form=;1:1,~F:1:6,T:1,D:6,F:6\n"
+	},
+	{ "sony12",
+		"Protocol=Sony12\n"
+		"Frequency=40000\n"
+		"Time Base=600\n"
+		"One=1,-1\n"
+		"Zero=1,-2\n"
+		"Prefix=4,-1\n"
+		"Suffix=\n"
+		"Default S=0\n"
+		"Form=;*,F:7,D:5,_\n"
+	},
+	{ "sony15",
+		"Protocol=Sony15\n"
+		"Frequency=40000\n"
+		"Time Base=600\n"
+		"One=1,-1\n"
+		"Zero=1,-2\n"
+		"Prefix=4,-1\n"
+		"Suffix=\n"
+		"Default S=0\n"
+		"Form=;*,F:7,D:8,_\n"
+	},
+	{ "sony20",
+		"Protocol=Sony20\n"
+		"Frequency=40000\n"
+		"Time Base=600\n"
+		"One=1,-1\n"
+		"Zero=1,-2\n"
+		"Prefix=4,-1\n"
+		"Suffix=\n"
+		"Default S=0\n"
+		"Form=;*,F:7,D:5,S:8,_\n"
 	},
 	{ "x10ir",
 		"Protocol=X10IR\n"

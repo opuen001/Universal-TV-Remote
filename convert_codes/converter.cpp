@@ -6,8 +6,8 @@
 #include <vector>
 
 int main() {
-    std::ifstream inputFile("irdbCodes/vizio.csv");
-    std::ofstream outputFile("../rawTimings/vizioTimings.csv");
+    std::ifstream inputFile("irdbCodes/.csv");
+    std::ofstream outputFile("../rawTimings/Timings.csv");
 
     if (!inputFile.is_open() || !outputFile.is_open()) {
         std::cerr << "Error opening files.\n";
