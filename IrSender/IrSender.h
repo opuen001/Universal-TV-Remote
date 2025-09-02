@@ -11,13 +11,13 @@ class IrSender{
     int LED_PIN;
     std::vector<std::vector<int>> codes;
     std::vector<std::string> functionOrder;
-    const std::string files[23] = {"../rawTimings/vizioTimings.csv", "../rawTimings/aocTimings.csv", "../rawTimings/aristonaTimings.csv", 
+    const std::string files[24] = {"../rawTimings/vizioTimings.csv", "../rawTimings/aocTimings.csv", "../rawTimings/aristonaTimings.csv", 
         "../rawTimings/bekoTimings.csv", "../rawTimings/bushTimings.csv", "../rawTimings/grundigTimings.csv", "../rawTimings/hitachiTimings.csv",
         "../rawTimings/hyundaiTimings.csv", "../rawTimings/jvcTimings.csv", "../rawTimings/LGTimings.csv", "../rawTimings/loeweTimings.csv",
         "../rawTimings/magnavoxTimings.csv", "../rawTimings/mitsubishiTimings.csv", "../rawTimings/panasonicTimings.csv",
         "../rawTimings/philipsTimings.csv", "../rawTimings/pioneerTimings.csv", "../rawTimings/protonTimings.csv",
         "../rawTimings/rcaTimings.csv", "../rawTimings/samsungTimings.csv", "../rawTimings/sanyoTimings.csv", "../rawTimings/sharpTimings.csv",
-        "../rawTimings/sonyTimings.csv", "../rawTimings/toshibaTimings.csv"};
+        "../rawTimings/sonyTimings.csv", "../rawTimings/toshibaTimings.csv", "../rawTimings/vestelTimings.csv"};
     void modulation(unsigned int timeMicros); //modulates the signal at 38kHz
 
     public:
