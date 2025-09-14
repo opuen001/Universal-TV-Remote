@@ -1,31 +1,10 @@
-# universal-TV-Remote
+# Universal-TV-Remote
 
-# Codes
-This contains codes for the following TVs, and appears at the following indices in the array: <br>
-<div style="padding-left: 20px;">
-        0. Vizio
-    </div>
-1. AOC <br>
-2. Aristona <br>
-3. Beko <br>
-4. Bush <br>
-5. Grundig <br>
-6. Hitachi <br>
-7. Hyundai <br>
-8. JVC <br>
-9. Konka <br>
-10. LG <br>
-11. Loewe <br>
-12. Magnavox <br>
-13. Mitsubishi <br>
-14. Panasonic <br>
-15. Philips <br>
-16. Pioneer <br>
-17. Proton <br>
-18. RCA <br>
-19. Samsung <br>
-
-<br> <br>
+# Example Remote
+The following is a functional prototype for a simplified remote with buttons that navigate to preset channels to improve usability for dementia and elderly patients. The code for the remote can be found in the examples folder, and while this specific remote is configured for Vizio TVs, it can easily be reconfigured for any TV included in the rawTimings folder. 
+![alt text](https://github.com/opuen001/Universal-TV-Remote/blob/main/examples/simpleRemoteVizio/remoteBoard.jpg)
+![alt text](https://github.com/opuen001/Universal-TV-Remote/blob/main/examples/simpleRemoteVizio/underside.jpg)
+![alt text](https://github.com/opuen001/Universal-TV-Remote/blob/main/examples/simpleRemoteVizio/circuit.png)
 # License
 IR codes provided by irdb:
 
